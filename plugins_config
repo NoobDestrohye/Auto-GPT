@@ -1,7 +1,0 @@
-AutoGPTApiTools:
-    config: {}
-    enabled: true
-
-PlannerPlugin:
-    config: {}
-    enabled: true
