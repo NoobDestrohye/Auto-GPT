@@ -7,5 +7,5 @@ class PluginConfig(BaseModel):
     """Class for holding configuration of a single plugin"""
 
     name: str
-    enabled: bool = False
+    enabled: bool = True
     config: dict[str, Any] = None
