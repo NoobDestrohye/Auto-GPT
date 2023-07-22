@@ -2,7 +2,7 @@
 # docker compose run auto-gpt
 # NOTE: Version 3.9 requires at least Docker Compose version 2 and Docker Engine version 20.10.13!
 
- version: "3.9"
+ version: 3.9
         services:
           auto-gpt:
             image: significantgravitas/auto-gpt
