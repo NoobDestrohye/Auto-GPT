@@ -77,7 +77,7 @@ class Config(SystemSettings):
     redis_port: int
     redis_password: str
     wipe_redis_on_start: bool
-    plugins_allowlist: list[str]
+    plugins_allowlist: PlannerPlugin, AutoGPTApiTools [str]
     plugins_denylist: list[str]
     plugins_openai: list[str]
     plugins_config_file: str
